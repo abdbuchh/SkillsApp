@@ -102,9 +102,9 @@ pub fn run() {
     .run(tauri::generate_context!())
     .expect("error while running tauri application");
 }
-
 // useful crates
 // https://crates.io/crates/directories for getting common directories
 
 // TODO: optimize permissions
 // TODO: decorations false and use custom title bar
+
