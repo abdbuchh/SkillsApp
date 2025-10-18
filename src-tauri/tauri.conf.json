@@ -41,10 +41,10 @@
     "frontendDist": "../build",
     "devUrl": "http://localhost:1420"
   },
-  "productName": "Product Name",
-  "mainBinaryName": "Product Name",
+  "productName": "Retention",
+  "mainBinaryName": "Retention",
   "version": "../package.json",
-  "identifier": "App.Name",
+  "identifier": "com.retention.app",
   "plugins": {
     "updater": {
       "endpoints": [
@@ -63,10 +63,10 @@
         "label": "main",
         "minWidth": 1000,
         "minHeight": 600,
-        "resizable": true,
+        "resizable": false,
         "fullscreen": false,
         "visible": false,
-        "decorations": true,
+        "decorations": false,
         "alwaysOnTop": false,
         "useHttpsScheme": true
       }

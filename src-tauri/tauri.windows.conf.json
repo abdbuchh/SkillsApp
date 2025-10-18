@@ -2,11 +2,11 @@
 	"app": {
 		"windows": [
 			{
-				"title": "tauri.windows.conf.json > tauri > windows > title",
+				"title": "Retention",
 				"label": "main",
-				"minWidth": 1000,
+				"minWidth": 800,
 				"minHeight": 600,
-				"resizable": true,
+				"resizable": false,
 				"fullscreen": false,
 				"visible": false,
 				"decorations": false,
